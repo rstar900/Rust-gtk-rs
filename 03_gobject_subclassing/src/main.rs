@@ -16,7 +16,7 @@ fn main() -> glib::ExitCode {
 }
 
 fn build_ui(a: &Application) {
-    // Instantiate out CustomButton object
+    // Instantiate our CustomButton object
     let my_custom_button = CustomButton::new(); // this will call the constructed function setting label as 0
     my_custom_button.set_margin_top(12);
     my_custom_button.set_margin_bottom(12);
